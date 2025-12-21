@@ -10,19 +10,19 @@ local PlayerMouse = Player:GetMouse()
 
 local redzlib = {
     Themes = {
-        Darker = {
+        DarkerOrange = {
             ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(14, 22, 45)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(18, 28, 58)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 22, 45))
-            }),
-            ["Color Hub 2"] = Color3.fromRGB(16, 25, 52),
-            ["Color Stroke"] = Color3.fromRGB(30, 46, 90),
-            ["Color Theme"] = Color3.fromRGB(72, 115, 255),
-            ["Color Text"] = Color3.fromRGB(235, 235, 235),
-            ["Color Dark Text"] = Color3.fromRGB(160, 170, 200)
-          },
-		Dark = {
+               ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 22, 14)),
+               ColorSequenceKeypoint.new(0.50, Color3.fromRGB(58, 28, 18)),
+               ColorSequenceKeypoint.new(1.00, Color3.fromRGB(45, 22, 14))
+           }),
+           ["Color Hub 2"] = Color3.fromRGB(52, 25, 16),
+           ["Color Stroke"] = Color3.fromRGB(90, 46, 30),
+           ["Color Theme"] = Color3.fromRGB(255, 140, 72),
+           ["Color Text"] = Color3.fromRGB(235, 235, 235),
+           ["Color Dark Text"] = Color3.fromRGB(200, 170, 160)
+        },
+     	Dark = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)),
 				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(47.5, 47.5, 47.5)),
@@ -53,7 +53,7 @@ local redzlib = {
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "Darker"
+		Theme = "DarkerOrange"
 	},
 	Settings = {},
 	Connection = {},
