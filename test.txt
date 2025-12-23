@@ -56,7 +56,7 @@ local redzlib = {
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "DarkerOrange"
+		Theme = "NeonRed"
 	},
 	Settings = {},
 	Connection = {},
@@ -2928,5 +2928,6 @@ end
 
 	return Window
 end
+
 
 return redzlib
